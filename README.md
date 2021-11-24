@@ -1,14 +1,22 @@
-#  Normal Data Engineer
+#  Normal Data Player
 
-**Name**: 普通数据工程师养成计划。
+**Name**: 普通数据玩家养成计划。
 
 **Language**: Chinese. 
 
-**Archieve or Not**: No. (archieve means no more update)
+**Archive**: No. 
 
 ## 01. Preface
 
->  **Main Target:** to be a Data Engineer without master degree learning experience.
+>  **Main Target:** to be a Data Player without master degree learning experience.
+
+> 定义 `数据玩家` : 可以handle从底层基础设施到上层数据统计分析所有的专业人士.
+
+究竟应该 from bottom to top or reverse？我也不太清楚。
+
+以我的基础而言，应该从底层到上层会快一些，但也未必，如果只是做数据采集，那么我现有的Python和SQL知识应该足够了。嗯，总而言之，言而总之，顺其自然吧。
+
+
 
 我的基本情况(backgroud)：
 
@@ -25,7 +33,7 @@
 
 ## 02. Normal Require
 
-基本要求：
+底层的基本要求：
 
 1. 本科及以上学历(计算机，数学，统计)
 2. 熟悉大数据技术栈 (HDFS、Kafka、Hive、HBase、Flink、Spark、Clickhouse)
@@ -89,11 +97,13 @@
 上手的意思是：**一丝不苟的吃透**。
 
 
-### Step 1: Start Small
+### Step 1: Start Small (on Hadoop)
 
 请参考目录(folder/director, `step1`).
 
-摘要：通过一本简短且权威的实战类书籍，彻底上手Hadoop。
+摘要：通过一本简短且权威的实战类书籍，上手Hadoop。
+
+概括：**预热**。
 
 [step1 HERE](/steps/step1)
 
@@ -101,27 +111,57 @@
 
 请参考目录(folder/director, `step2`).
 
+摘要：通过大量的官方的，非官方的材料，系统吸收，确保自己没有理解错，真正理解并熟悉了。
+
+概括：**系统吸收**。
+
 [step2 HERE](/steps/step2)
 
 ### Step 3: Again Repeat Hadoop
 
 请参考目录(folder/director, `step3`).
 
+摘要：Review，整合，重新组织到自己的知识架构中。
+
+概括：**深入，重组**。
+
 [step3 HERE](/steps/step3)
 
-### Step 4: Sorrry Again Repeat Hadoop
+### Step4: Start Spark & Repeat Spark & Again Repeat Spark
+
+do the same thing on spark just like hadoop.
 
 请参考目录(folder/director, `step4`).
 
 [step4 HERE](/steps/step4)
 
-### Step 5: Checkpoint:  Amend and Archieve
+### Step 5: Review Hadoop and Spark
+
+请参考目录(folder/director, `step5`).
+
+摘要：优化自己的该部分的知识架构。
+
+概括: **深入并扩展**。
+
+[step5 HERE](/steps/step5)
+
+### Step 7: Checkpoint(Amend and Archive)
 
 三遍的Hadoop；Hadoop基本没有问题了，这里要停一下；这里要确保拆解Hadoop这个框架的时候，周边的技术，需要的技术，比如linux系统，计算机网络，进程知识，涉及到的设计模式，相关语言(Java啊，C++啊，Python啊，SHELL啊)等等，在进入下一个大数据框架比如Flink的时候不会成为阻碍，使得你可以用上一个框架。
 
-### Step 6: TODO
+**略**.
 
-[step6 HERE](/steps/step6)
+(下面要做项目或者大量实践；在这里查漏补缺：该考证考证，考刷题就刷题)
+
+### Step 8: Multiple Capstone Project
+
+**网上找或者购买一些实践项目，确保自己有足够的练手素材，实际的Case经验**。
+
+[step8 HERE](/steps/step8)。
+
+*只有项目介绍、视频，结果。具体实验代码，仅在面试时展现(不上传了)*。
+
+
 
 ## 08. Timeline
 
