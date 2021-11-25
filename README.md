@@ -32,7 +32,7 @@
 * 因为这个学习和训练期间的笔记，其实对于我没有太多了价值 (它不同于工作期间的 Handbook, Toolbox)
 * 请用 **Typora 打开本目录/repo**
 
-*下面步入正文*.
+*下面步入正文；Top to Bottom 请直接参考 `steps_t2b` 目录*.
 
 ## 02. Normal Require
 
