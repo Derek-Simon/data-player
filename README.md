@@ -10,19 +10,22 @@
 
 >  **Main Target:** to be a Data Player without master degree learning experience.
 
-> 定义 `数据玩家` : 可以handle从底层基础设施到上层数据统计分析所有的专业人士.
+> 定义 `数据玩家` : 可以handle从底层基础设施到上层数据统计分析所有的专业人士。
 
 究竟应该 from bottom to top or reverse？我也不太清楚。
 
 以我的基础而言，应该从底层到上层会快一些，但也未必，如果只是做数据采集，那么我现有的Python和SQL知识应该足够了。嗯，总而言之，言而总之，顺其自然吧。
 
+**从底层到上层会慢一些，因为底层各家都针对原始的开源(比如Hadoop, Storm, Flink/Blink等)做修正，打补丁，技术方案百家齐放（腾讯的不同于华为的，和IBM的，Google的，AWS的，Twitter的又不一样了，怎一个乱子了得）。上层则总是那几种采集，分析工具，可能变的也就是一些算法，但算法又是一个独立的领域，不仅限于 Data Engineer(数据工程领域)**。再者，如果你不知道数据究竟如何被使用就开始倒腾基础设施，往往枯燥，换句话说，如果我知道每天进出的数据量，知道这些内容存为文件不方便实时分析，那么再去倒腾Blink之类的技术框架或者PipeLine工具是不是更加有针对性了？
+
 
 
 我的基本情况(backgroud)：
 
-**我并不是零基础，但如果零基础其实也可以按我的方式来**(只不过可能行进的慢一点？我猜的)。
+* **我并不是零基础，但如果零基础其实也可以按我的方式来**(只不过可能行进的慢一点？我猜的)。
 
-之前我已经对整个大数据领域有了一定的认识了, [Round 1](https://www.derekactions.com/post/23e8e883/#Round-1-Familiar-with-Off).
+* 之前我已经对整个 `数据领域` (包含大数据)有了一定的认识了, [Round 1](https://www.derekactions.com/post/23e8e883/#Round-1-Familiar-with-Off).
+* **经过试验和探索，目前已经修改Path为From Top to Bottom; (原因见上)**
 
 **本文(该folder)全部都是期间的笔记**(writen in Typora based on filesystem). **完整笔记**.(包括问题记录)
 
@@ -42,6 +45,12 @@
 5. 对数据敏感，具备一定的数据分析能力
 
 (来自某大券商的任职要求)
+
+
+
+上层(数据挖掘、数据分析)的基本要求:
+
+* 略。(目前我只盯着数据采集这一块)
 
 ## 03. Tips from pioneer
 
@@ -63,13 +72,7 @@
 
 **指导思想**就一条：**抓住核心，然后遇到问题解决问题**。
 
-**具体来说**: <mark>直接上手 Hadoop 框架/生态，然后期间遇到问题解决问题</mark>。
-
-* 没懂？--- en, Hadoooooop 生态内的东西可不少！
-
-(其他框架？如果玩熟悉了第一个，其他框架同理；至少且相比第一个框架熟悉起来更快)
-
-
+**具体来说**: <mark>直接上手，然后期间遇到问题解决问题</mark>。
 
 
 ## 05. Environment Explain
@@ -77,8 +80,9 @@
 本地环境玩清楚了，再去玩云，而且一定要玩云，国际国内都要玩。
 
 * 国际： AWS，GCP
-
 * 国内：阿里云，腾讯云
+
+主要是Windows和macOS作为客户端(分析)平台。
 
 ## 06. Check Specification
 
@@ -86,15 +90,25 @@
 
 * Have **有足够多的案例练手 (必须)**
 
-* Can 考取国内外知名大企业的 DataEngineer Certificate
+* Can 考取国内外知名大企业的 Certificate
 
-* Can 找一份符合市场薪资的大数据工程师工作
+* Can 找一份符合市场薪资的相关工作
 
 ## 07. Action List
 
-> 指导思想：直接上手 Hadoop 框架/生态，然后期间遇到问题解决问题。然后其他框架同理。
+> 指导思想：直接上手，然后期间遇到问题解决问题。
 
-上手的意思是：**一丝不苟的吃透**。
+上手的意思是：**一丝不苟的吃透，步步为营**。
+
+### Special Step INSERT HERE
+
+**经过试验和探索(以及该领域的朋友建议)，目前已经修改Path为From Top to Bottom; (原因见上)**
+
+详细的 Action List，请参考[steps_t2b](./steps_t2b/)以及[demos_for_job](./demos_for_job/)。
+
+---
+
+--TMP STOP -- START 2021.11.25--
 
 
 ### Step 1: Start Small (on Hadoop)
@@ -160,6 +174,12 @@ do the same thing on spark just like hadoop.
 [step8 HERE](/steps/step8)。
 
 *只有项目介绍、视频，结果。具体实验代码，仅在面试时展现(不上传了)*。
+
+
+
+--TMP STOP -- END 2021.11.25--
+
+---
 
 
 

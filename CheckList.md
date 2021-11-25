@@ -2,6 +2,8 @@
 
 (个人感觉，所有的 Steps 走完，至少需要2个月  --- 建立在有计算机基础的情况下)
 
+**经过试验和探索，目前已经修改Path为From Top to Bottom; 此处暂时保留，短时间内不再更新。**
+
 ## 1. Task List
 
 按阅读、实操顺序记录；按照 Step 阶段进行分割。
@@ -13,7 +15,7 @@
 - [x] 建立Hadoop生态的知识框架，认识理解核心组件
 - [x] 了解Hadoop V2的服务和配置文件，各种类型的安装方式
 - [x] HDFS
-- [ ] 搭建apache hadoop版本的集群环境，跑一下示例程序和基准测试
+- [x] 搭建apache hadoop版本的集群环境，跑一下示例程序和基准测试
 - [ ] 试验Hadoop简单编程接口(JVM和非JVM)
 - [ ] MapReduce模型
 - [ ] MapReduce编程模型(流式，管道，MapReduce API)
