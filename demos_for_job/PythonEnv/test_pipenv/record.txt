@@ -1,0 +1,405 @@
+➜  ~ which pipenv
+pipenv not found
+➜  ~ export PATH=$PATH:/Users/derek/Library/Python/3.8/bin
+➜  ~ pipenv --three     
+Creating a virtualenv for this project...
+Pipfile: /Users/derek/Pipfile
+Using /usr/bin/python3 (3.8.9) to create virtualenv...
+⠙ Creating virtual environment...created virtual environment CPython3.8.9.final.0-64 in 702ms
+  creator CPython3macOsFramework(dest=/Users/derek/.local/share/virtualenvs/derek-jrnP_dT9, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/derek/Library/Application Support/virtualenv)
+    added seed packages: pip==21.3.1, setuptools==58.3.0, wheel==0.37.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /Users/derek/.local/share/virtualenvs/derek-jrnP_dT9
+Creating a Pipfile for this project...
+➜  ~ pipenv        
+Usage: pipenv [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --where                         Output project home information.
+  --venv                          Output virtualenv information.
+  --py                            Output Python interpreter information.
+  --envs                          Output Environment Variable options.
+  --rm                            Remove the virtualenv.
+  --bare                          Minimal output.
+  --man                           Display manpage.
+  --support                       Output diagnostic information for use in
+                                  GitHub issues.
+  --site-packages / --no-site-packages
+                                  Enable site-packages for the virtualenv.
+                                  [env var: PIPENV_SITE_PACKAGES]
+  --python TEXT                   Specify which version of Python virtualenv
+                                  should use.
+  --three / --two                 Use Python 3/2 when creating virtualenv.
+  --clear                         Clears caches (pipenv, pip).  [env var:
+                                  PIPENV_CLEAR]
+  -v, --verbose                   Verbose mode.
+  --pypi-mirror TEXT              Specify a PyPI mirror.
+  --version                       Show the version and exit.
+  -h, --help                      Show this message and exit.
+
+
+Usage Examples:
+   Create a new project using Python 3.7, specifically:
+   $ pipenv --python 3.7
+
+   Remove project virtualenv (inferred from current directory):
+   $ pipenv --rm
+
+   Install all dependencies for a project (including dev):
+   $ pipenv install --dev
+
+   Create a lockfile containing pre-releases:
+   $ pipenv lock --pre
+
+   Show a graph of your installed dependencies:
+   $ pipenv graph
+
+   Check your installed dependencies for security vulnerabilities:
+   $ pipenv check
+
+   Install a local setup.py into your virtual environment/Pipfile:
+   $ pipenv install -e .
+
+➜  ~ ls
+ApplicationRun             Documents                  Movies                     Pictures                   Sites
+Applications               Downloads                  Music                      Pipfile                    Virtual Machines.localized
+Desktop                    Library                    OneDrive                   Public                     opt
+➜  ~ rm Pipfile                        
+➜  ~ ls
+ApplicationRun             Documents                  Movies                     Pictures                   Virtual Machines.localized
+Applications               Downloads                  Music                      Public                     opt
+Desktop                    Library                    OneDrive                   Sites
+➜  ~ ls -al                                
+total 464
+drwxr-xr-x@ 48 derek  staff   1536 Dec  4 19:49 .
+drwxr-xr-x   6 root   admin    192 Nov 22 17:17 ..
+-r--------   1 derek  staff      7 Aug  5 17:00 .CFUserTextEncoding
+-rw-r--r--@  1 derek  staff  22532 Dec  4 18:38 .DS_Store
+drwx------+  4 derek  staff    128 Dec  4 18:55 .Trash
+drwxr-xr-x   3 derek  staff     96 Oct 26 21:43 .anaconda
+drwxr-xr-x   7 derek  staff    224 Nov 17 16:46 .autojump
+-rw-r--r--   1 derek  staff    495 Oct 26 21:42 .bash_profile
+drwxr-xr-x   3 derek  staff     96 Nov  3 22:57 .conda
+-rw-r--r--   1 derek  staff     23 Oct 26 21:43 .condarc
+drwxr-xr-x   7 derek  staff    224 Oct 26 21:42 .config
+drwxr-xr-x   3 derek  staff     96 Oct 26 21:43 .continuum
+-rw-r--r--   1 derek  staff    206 Dec  3 22:05 .gitconfig
+drwxr-xr-x   2 derek  staff     64 Nov  3 14:36 .ipynb_checkpoints
+drwxr-xr-x   6 derek  staff    192 Nov 17 16:46 .ipython
+drwxr-xr-x   4 derek  staff    128 Nov  3 14:35 .jupyter
+drwxr-xr-x   5 derek  staff    160 Oct  3 11:45 .kodo-browser
+drwxr-xr-x   3 derek  staff     96 Oct  3 11:52 .kodo-s3-adapter-sdk
+drwxr-xr-x   3 derek  staff     96 Dec  4 19:46 .local
+drwxr-xr-x   7 derek  staff    224 Nov 17 16:46 .npm
+drwxr-xr-x  23 derek  staff    736 Nov 23 10:15 .oh-my-zsh
+-rw-------   1 derek  staff     13 Sep 25 11:13 .python_history
+drwxr-xr-x   2 derek  staff     64 Dec  4 19:48 .sogouinput
+drwx------   4 derek  staff    128 Dec  3 19:15 .ssh
+-rw-r--r--   1 derek  staff    317 Oct 26 21:42 .tcshrc
+-rw-------   1 derek  staff   1193 Nov 15 00:30 .viminfo
+drwxr-xr-x   4 derek  staff    128 Aug  6 00:08 .vscode
+-rw-r--r--   1 derek  staff    600 Oct 26 21:42 .xonshrc
+-rw-r--r--   1 derek  staff  47850 Aug  6 18:51 .zcompdump
+-rw-r--r--   1 derek  staff  48539 Aug 18 09:48 .zcompdump-Derek’s Mac mini 2018-5.8
+-rw-r--r--   1 derek  staff  48583 Nov 23 19:01 .zcompdump-MacBook Pro-5.8
+-rw-------   1 derek  staff  24333 Dec  4 19:49 .zsh_history
+drwx------  26 derek  staff    832 Dec  4 16:02 .zsh_sessions
+-rw-r--r--   1 derek  staff   5430 Dec  4 16:02 .zshrc
+drwxr-xr-x   5 derek  staff    160 Oct 24 10:49 ApplicationRun
+drwx------@  6 derek  staff    192 Sep 25 13:53 Applications
+drwx------@  9 derek  staff    288 Dec  4 18:37 Desktop
+drwx------+  5 derek  staff    160 Dec  3 09:57 Documents
+drwx------@  9 derek  staff    288 Dec  4 14:27 Downloads
+drwx------@ 94 derek  staff   3008 Dec  4 19:07 Library
+drwx------+  7 derek  staff    224 Nov 17 16:46 Movies
+drwx------+  4 derek  staff    128 Aug  5 17:09 Music
+drwx------@ 11 derek  staff    352 Dec  4 18:37 OneDrive
+drwx------+  5 derek  staff    160 Nov 17 16:46 Pictures
+drwxr-xr-x+  5 derek  staff    160 Dec  2 22:37 Public
+drwxr-xr-x+  3 derek  staff     96 Oct 22 11:49 Sites
+drwxr-xr-x   5 derek  staff    160 Dec  3 13:21 Virtual Machines.localized
+drwxr-xr-x   4 derek  staff    128 Oct 31 16:11 opt
+➜  ~ pwd           
+/Users/derek
+➜  ~ cd OneDrive/Work\ Space
+➜  Work Space ls    
+blog           configfile_v3  data_player    interview      one_note       remoteshell_v3 toolbox_v3
+➜  Work Space cd data_player/demos_for_job/PythonEnv 
+➜  PythonEnv git:(main) ls
+test_pipenv
+➜  PythonEnv git:(main) cd test_pipenv                        
+➜  test_pipenv git:(main) ls
+➜  test_pipenv git:(main) pipenv --three
+Creating a virtualenv for this project...
+Pipfile: /Users/derek/OneDrive/Work Space/data_player/demos_for_job/PythonEnv/test_pipenv/Pipfile
+Using /usr/bin/python3 (3.8.9) to create virtualenv...
+⠼ Creating virtual environment...created virtual environment CPython3.8.9.final.0-64 in 220ms
+  creator CPython3macOsFramework(dest=/Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/derek/Library/Application Support/virtualenv)
+    added seed packages: pip==21.3.1, setuptools==58.3.0, wheel==0.37.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm
+Creating a Pipfile for this project...
+➜  test_pipenv git:(main) ✗ ls
+Pipfile
+➜  test_pipenv git:(main) ✗ cat Pipfile                        
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+➜  test_pipenv git:(main) ✗ pipenv shell  
+Launching subshell in virtual environment...
+ . /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/activate
+➜  test_pipenv git:(main) ✗  . /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/activate
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv where
+Usage: pipenv [OPTIONS] COMMAND [ARGS]...
+Try 'pipenv -h' for help.
+
+Error: No such command 'where'.
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv --where
+/Users/derek/OneDrive/Work Space/data_player/demos_for_job/PythonEnv/test_pipenv
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv --venv 
+/Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv --py        
+/Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/python
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ python --version                    
+Python 3.8.9
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv install flask>=0.9.0
+zsh: 0.9.0 not found
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv install 'flask>=0.9.0'
+Installing flask>=0.9.0...
+Adding flask to Pipfile's [packages]...
+✔ Installation Succeeded 
+Pipfile.lock not found, creating...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Building requirements...
+Resolving dependencies...
+✔ Success! 
+Updated Pipfile.lock (addc11)!
+Installing dependencies from Pipfile.lock (addc11)...
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 0/0 — 00:00:00
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ cat Pipfile
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = ">=0.9.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pip graph                    
+ERROR: unknown command "graph"
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv graph                 
+Flask==2.0.2
+  - click [required: >=7.1.2, installed: 8.0.3]
+  - itsdangerous [required: >=2.0, installed: 2.0.1]
+  - Jinja2 [required: >=3.0, installed: 3.0.3]
+    - MarkupSafe [required: >=2.0, installed: 2.0.1]
+  - Werkzeug [required: >=2.0, installed: 2.0.2]
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv install 'jieba==0.3.0'
+Installing jieba==0.3.0...
+Error:  An error occurred while installing jieba==0.3.0!
+Error text: 
+ERROR: Could not find a version that satisfies the requirement jieba==0.3.0 (from versions: 0.20, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.26.1, 0.27, 0.28, 0.28.1, 0.28.2, 0.28.3, 0.28.4, 0.29, 0.29.1, 0.30, 0.31, 0.32, 0.33, 0.34, 0.35, 0.36, 0.36.2, 0.37, 0.38, 0.39, 0.40, 0.41, 0.42, 0.42.1)
+ERROR: No matching distribution found for jieba==0.3.0
+
+✘ Installation Failed 
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv install 'jieba==0.30' 
+Installing jieba==0.30...
+Adding jieba to Pipfile's [packages]...
+✔ Installation Succeeded 
+Pipfile.lock (addc11) out of date, updating to (f74d1a)...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Building requirements...
+Resolving dependencies...
+✔ Success! 
+Updated Pipfile.lock (f74d1a)!
+Installing dependencies from Pipfile.lock (f74d1a)...
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 0/0 — 00:00:00
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv check                
+Checking PEP 508 requirements...
+Passed!
+Checking installed package safety...
+All good!
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv update 
+Running $ pipenv lock then $ pipenv sync.
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Building requirements...
+Resolving dependencies...
+✔ Success! 
+Updated Pipfile.lock (f74d1a)!
+Installing dependencies from Pipfile.lock (f74d1a)...
+  🐍   ▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉▉ 0/0 — 00:00:00
+All dependencies are now up-to-date!
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv update --outdated
+Building requirements...
+Resolving dependencies...
+✔ Success! 
+Skipped Update of Package Werkzeug: 2.0.2 installed,, 2.0.2 available.
+Skipped Update of Package MarkupSafe: 2.0.1 installed,, 2.0.1 available.
+Skipped Update of Package Jinja2: 3.0.3 installed,, 3.0.3 available.
+Skipped Update of Package jieba: 0.30 installed, 0.30 required (==0.30 set in Pipfile), 0.42.1 available.
+Skipped Update of Package itsdangerous: 2.0.1 installed,, 2.0.1 available.
+Skipped Update of Package Flask: 2.0.2 installed, 2.0.2 required (>=0.9.0 set in Pipfile), 2.0.2 available.
+Skipped Update of Package click: 8.0.3 installed,, 8.0.3 available.
+All packages are up to date!
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv graph            
+Flask==2.0.2
+  - click [required: >=7.1.2, installed: 8.0.3]
+  - itsdangerous [required: >=2.0, installed: 2.0.1]
+  - Jinja2 [required: >=3.0, installed: 3.0.3]
+    - MarkupSafe [required: >=2.0, installed: 2.0.1]
+  - Werkzeug [required: >=2.0, installed: 2.0.2]
+jieba==0.30
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv list 
+Usage: pipenv [OPTIONS] COMMAND [ARGS]...
+Try 'pipenv -h' for help.
+
+Error: No such command 'list'.
+
+Did you mean one of these?
+    install
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ cat Pipfile
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = ">=0.9.0"
+jieba = "==0.30"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv uninstall jieba  
+Uninstalling jieba...
+Found existing installation: jieba 0.30
+Uninstalling jieba-0.30:
+  Successfully uninstalled jieba-0.30
+
+Removing jieba from Pipfile...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Building requirements...
+Resolving dependencies...
+✔ Success! 
+Updated Pipfile.lock (addc11)!
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv uninstall --all
+Un-installing all [dev-packages] and [packages]...
+Found 6 installed package(s), purging...
+Found existing installation: Jinja2 3.0.3
+Uninstalling Jinja2-3.0.3:
+  Successfully uninstalled Jinja2-3.0.3
+Found existing installation: itsdangerous 2.0.1
+Uninstalling itsdangerous-2.0.1:
+  Successfully uninstalled itsdangerous-2.0.1
+Found existing installation: click 8.0.3
+Uninstalling click-8.0.3:
+  Successfully uninstalled click-8.0.3
+Found existing installation: Flask 2.0.2
+Uninstalling Flask-2.0.2:
+  Successfully uninstalled Flask-2.0.2
+Found existing installation: Werkzeug 2.0.2
+Uninstalling Werkzeug-2.0.2:
+  Successfully uninstalled Werkzeug-2.0.2
+Found existing installation: MarkupSafe 2.0.1
+Uninstalling MarkupSafe-2.0.1:
+  Successfully uninstalled MarkupSafe-2.0.1
+
+Environment now purged and fresh!
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ cat Pipfile
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = ">=0.9.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv uninstall flask
+Uninstalling flask...
+Removing flask from Pipfile...
+Locking [dev-packages] dependencies...
+Locking [packages] dependencies...
+Updated Pipfile.lock (db4242)!
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ cat Pipfile
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ exit                                                 
+➜  test_pipenv git:(main) ✗ pipenv shell
+Launching subshell in virtual environment...
+ . /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/activate
+➜  test_pipenv git:(main) ✗  . /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/activate
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ pipenv --rm 
+Removing virtualenv (/Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm)...
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗     
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ which python
+/usr/bin/python
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ exit
+➜  test_pipenv git:(main) ✗ ls
+Pipfile      Pipfile.lock
+➜  test_pipenv git:(main) ✗ cat Pipfile
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+➜  test_pipenv git:(main) ✗ pipenv shell
+Creating a virtualenv for this project...
+Pipfile: /Users/derek/OneDrive/Work Space/data_player/demos_for_job/PythonEnv/test_pipenv/Pipfile
+Using /usr/bin/python3 (3.8.9) to create virtualenv...
+⠼ Creating virtual environment...created virtual environment CPython3.8.9.final.0-64 in 220ms
+  creator CPython3macOsFramework(dest=/Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/derek/Library/Application Support/virtualenv)
+    added seed packages: pip==21.3.1, setuptools==58.3.0, wheel==0.37.0
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+
+✔ Successfully created virtual environment! 
+Virtualenv location: /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm
+Launching subshell in virtual environment...
+ . /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/activate
+➜  test_pipenv git:(main) ✗  . /Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm/bin/activate
+((test_pipenv) ) ➜  test_pipenv git:(main) ✗ exit
+➜  test_pipenv git:(main) ✗ pipenv --rm 
+Removing virtualenv (/Users/derek/.local/share/virtualenvs/test_pipenv-fOr7eeWm)...
+➜  test_pipenv git:(main) ✗ 
